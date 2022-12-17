@@ -175,9 +175,10 @@
 <h2>Pré-requisitos</h2>
 <ul>
   <li>É esperado que o Node.js esteja instalado.</li>
-  <li>Na raiz no projeto, crie um arquivo .env, adicione sua string de conexão do MongoDB à chave MONGO, como demonstrado a seguir:</li>
+  <li>Na raiz no projeto, crie um arquivo .env, adicione sua string de conexão do MongoDB criando duas chaves MONGO e MONGOTEST (para gerar um banco para o teste de integração), como demonstrado a seguir:</li>
 </ul>
-<strong>MONGO =</strong>" <sua-string-de-conexão>"
+<strong>MONGO =</strong>" sua-string-de-conexão"
+<strong>MONGOTEST =</strong>" sua-string-de-conexão"
 
 <h3>Instalação</h3>
 <h4>Instale as dependências:</h4>
